@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".resultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Details"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Register number: "
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/regno_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="registerNumber"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/name_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nameResult"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Degree: "
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/degree_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="registerNumber"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Phone number: "
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/phno_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="phoneNumber"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© www.rubangino.in"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
