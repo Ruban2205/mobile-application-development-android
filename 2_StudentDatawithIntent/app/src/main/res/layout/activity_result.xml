@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Details"
+        android:text="@string/your_title"
         android:textStyle="bold"
         android:textSize="30sp"
         android:layout_marginBottom="100dp"
@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Register number: "
+                android:text="@string/register_number"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 />
@@ -45,7 +45,7 @@
                 android:id="@+id/regno_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="registerNumber"
+                android:text="@string/reg_result"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 />
@@ -62,8 +62,9 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Name: "
+                android:text="@string/name"
                 android:layout_weight="1"
+                android:layout_marginTop="5dp"
                 android:textSize="18sp"
                 />
 
@@ -71,7 +72,8 @@
                 android:id="@+id/name_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="nameResult"
+                android:text="@string/name_result"
+                android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 />
@@ -88,8 +90,9 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Degree: "
+                android:text="@string/degree"
                 android:layout_weight="1"
+                android:layout_marginTop="5dp"
                 android:textSize="18sp"
                 />
 
@@ -97,8 +100,9 @@
                 android:id="@+id/degree_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="registerNumber"
+                android:text="@string/deg_result"
                 android:layout_weight="1"
+                android:layout_marginTop="5dp"
                 android:textSize="18sp"
                 />
 
@@ -114,18 +118,20 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Phone number: "
+                android:text="@string/ph_no"
                 android:layout_weight="1"
                 android:textSize="18sp"
+                android:layout_marginTop="5dp"
                 />
 
             <TextView
                 android:id="@+id/phno_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="phoneNumber"
+                android:text="@string/phno_result"
                 android:layout_weight="1"
                 android:textSize="18sp"
+                android:layout_marginTop="5dp"
                 />
 
         </LinearLayout>
@@ -135,8 +141,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="© www.rubangino.in"
+        android:text="@string/copyright"
         android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:gravity="center"
         />
 

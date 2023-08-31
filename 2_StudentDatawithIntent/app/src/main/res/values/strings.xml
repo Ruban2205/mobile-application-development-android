@@ -1,5 +1,31 @@
 <resources>
     <string name="app_name">StudentDatawithIntent</string>
 
+    <!--Main Activity-->
     <string name="home_title">Student Details</string>
+    <string name="registerno_prompt">Enter your Register Number</string>
+    <string name="fullname_prompt">Enter your Full Name:</string>
+    <string name="degree_prompt">Enter your Degree:</string>
+    <string name="mobileno_prompt">Enter your Mobile number:</string>
+
+    <string name="submit_button">Submit</string>
+
+    <string name="copyright">© www.rubangino.in</string>
+
+
+    <!--Your Details Activity-->
+    <string name="your_title">Your Details</string>
+
+    <string name="register_number">Register number:</string>
+    <string name="reg_result">registerNumber</string>
+
+    <string name="name">Name: </string>
+    <string name="name_result">nameResult</string>
+
+    <string name="degree">Degree:</string>
+    <string name="deg_result">degreeResult</string>
+
+    <string name="ph_no">Phone Number:</string>
+    <string name="phno_result">phoneNumberResult</string>
+
 </resources>
